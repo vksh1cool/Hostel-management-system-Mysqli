@@ -18,14 +18,14 @@ if(isset($_POST['display']))
 	$que = mysqli_query($con,"select * from feedback");
 	
 	echo "<div align='center'>";
-	echo "<table border='1' bgcolor='#B2B8FF' width='500px'>";
+	//echo "<table border='1' bgcolor='#B2B8FF' width='500px'>";
 	echo "<tr><th>Feedback</th></tr>";
 	
 	while($row= mysqli_fetch_array($que))
 	{
 	  echo "<td>".$row['feedback']."</td>";
   }
-  echo "</table>";
+ // echo "</table>";
 	echo "</div>";
 }
 
