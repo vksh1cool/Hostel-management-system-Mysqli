@@ -87,7 +87,9 @@ border-style:none;}
         <a href="profile.php?option=about" style="text-decoration:none ; color:#010101"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</b></a>
         <a href="profile.php?option=mfees" style="text-decoration:none ; color:#010101"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MESS FEES</b></a>
         <a href="profile.php?option=rfees" style="text-decoration:none ; color:#010101"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROOM FEES</b></a>
-  <a href="logout.php" style="text-decoration:none;margin-left:150px;"><input type="submit" value="Logout" name="logout"></a></td>
+		<a href="profile.php?option=feedback" style="text-decoration:none ; color:#010101"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FEEDBACK</b></a>
+
+		<a href="logout.php" style="text-decoration:none;margin-left:150px;"><input type="submit" value="Logout" name="logout"></a></td>
     </tr>
     <tr>
       <td width="974" height="647" bgcolor="#D9D9D9" style="vertical-align:text-top">
@@ -129,6 +131,9 @@ border-style:none;}
 		case 'rfees':
 		include('rfees.php');
 		break;
+		case 'feedback':
+			include('feedback.php');
+		break;
 		
 	}}
 
@@ -143,7 +148,7 @@ border-style:none;}
             <center><a href="" style="text-decoration:none"><font size="+1"><b>News</b></font></a></center><br>
             <center><a href="" style="text-decoration:none"><font size="+1"><b>Sports Fest</b></font></a></center><br>
             <center><a href="" style="text-decoration:none"><font size="+1"><b>Quiz Competition</b></font></a></center><br>
-            <center><a href="" style="text-decoration:none"><font size="+1"><b>Admission 2014</b></font></a></center><br>
+            <center><a href="" style="text-decoration:none"><font size="+1"><b>Admission 2023</b></font></a></center><br>
             <center><a href="" style="text-decoration:none"><font size="+1"><b>Placement List</b></font></a></center><br>
             <center><a href="" style="text-decoration:none"><font size="+1"><b>Weekend Events</b></font></a></center><br>
             <center><a href="" style="text-decoration:none"><font size="+1"><b>Notice Board</b></font></a></center><br>
@@ -155,7 +160,7 @@ border-style:none;}
       </td>
     </tr>
     <tr>
-      <td height="25" colspan="2" style="background-color:#B8AFFF"><center><b>&copy; 2014 by UserName | Managed by ABC</b></center></td>
+      <td height="25" colspan="2" style="background-color:#B8AFFF"><center><b>&copy; 2023 by UserName | Managed by ABC</b></center></td>
     </tr>
   </tbody>
 </table>

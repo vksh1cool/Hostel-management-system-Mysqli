@@ -198,7 +198,7 @@ border-style:none;}
             <center><a href="index.php?option=news" style="text-decoration:none"><font size="+1"><b>News</b></font></a></center><br>
             <center><a href="index.php?option=sports" style="text-decoration:none"><font size="+1"><b>Sports Fest</b></font></a></center><br>
             <!--<center><a href="" style="text-decoration:none"><font size="+1"><b>Quiz Competition</b></font></a></center><br>-->
-            <center><a href="index.php?option=admission" style="text-decoration:none"><font size="+1"><b>Admission 2014</b></font></a></center><br>
+            <center><a href="index.php?option=admission" style="text-decoration:none"><font size="+1"><b>Admission 2023</b></font></a></center><br>
             <center><a href="index.php?option=sdp" style="text-decoration:none"><font size="+1"><b>Student Development Programme</b></font></a></center><br>
             <center><a href="index.php?option=wevents" style="text-decoration:none"><font size="+1"><b>Weekend Events</b></font></a></center><br>
             <center><a href="index.php?option=notice" style="text-decoration:none"><font size="+1"><b>Notice Board</b></font></a></center><br>

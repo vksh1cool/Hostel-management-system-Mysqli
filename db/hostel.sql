@@ -74,3 +74,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `gender`, `mob`, `address`) VALUES
 (26, 'vivek', '3b3b8360f70b78bb4f6239078e636626', 'neeraj@gmail.com', 'm', 8800670473, ''),
 (36, 'ishaan', 'd76f3d05cc9ac98f1f9160274a39fe33', 'abhi@gmail.com', 'm', 9015501899, 'ddd9');
+
+CREATE TABLE feedback (
+    fb varchar(500) 
+);
+
+INSERT INTO `feedback` (`fb`)  VALUES ('Mess food is not good');
